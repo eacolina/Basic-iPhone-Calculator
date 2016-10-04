@@ -10,20 +10,28 @@
 		3429215A1D9C85E90089C858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342921591D9C85E90089C858 /* AppDelegate.swift */; };
 		3429215C1D9C85E90089C858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3429215B1D9C85E90089C858 /* ViewController.swift */; };
 		3429215F1D9C85E90089C858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3429215D1D9C85E90089C858 /* Main.storyboard */; };
-		342921621D9C85E90089C858 /* Basic_iPhone_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 342921601D9C85E90089C858 /* Basic_iPhone_Calculator.xcdatamodeld */; };
+		342921621D9C85E90089C858 /* TicTacToe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 342921601D9C85E90089C858 /* TicTacToe.xcdatamodeld */; };
 		342921641D9C85E90089C858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342921631D9C85E90089C858 /* Assets.xcassets */; };
 		342921671D9C85E90089C858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342921651D9C85E90089C858 /* LaunchScreen.storyboard */; };
+		34792FBE1D9CCDE3008FF2F6 /* TicTacToeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34792FBD1D9CCDE3008FF2F6 /* TicTacToeButton.swift */; };
+		347F32471D9F497F00967B6A /* Board_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 347F32461D9F497F00967B6A /* Board_background.png */; };
+		34C9B6D21DA2D8E10045E137 /* O_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C9B6D01DA2D8E10045E137 /* O_button.png */; };
+		34C9B6D31DA2D8E10045E137 /* X_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C9B6D11DA2D8E10045E137 /* X_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		342921561D9C85E90089C858 /* Basic-iPhone-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic-iPhone-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		342921561D9C85E90089C858 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342921591D9C85E90089C858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3429215B1D9C85E90089C858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3429215E1D9C85E90089C858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		342921611D9C85E90089C858 /* Basic_iPhone_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Basic_iPhone_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		342921611D9C85E90089C858 /* TicTacToe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TicTacToe.xcdatamodel; sourceTree = "<group>"; };
 		342921631D9C85E90089C858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342921661D9C85E90089C858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342921681D9C85E90089C858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34792FBD1D9CCDE3008FF2F6 /* TicTacToeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicTacToeButton.swift; sourceTree = "<group>"; };
+		347F32461D9F497F00967B6A /* Board_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board_background.png; sourceTree = "<group>"; };
+		34C9B6D01DA2D8E10045E137 /* O_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = O_button.png; path = ../O_button.png; sourceTree = "<group>"; };
+		34C9B6D11DA2D8E10045E137 /* X_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = X_button.png; path = ../X_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +48,7 @@
 		3429214D1D9C85E90089C858 = {
 			isa = PBXGroup;
 			children = (
-				342921581D9C85E90089C858 /* Basic-iPhone-Calculator */,
+				342921581D9C85E90089C858 /* TicTacToe */,
 				342921571D9C85E90089C858 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +56,36 @@
 		342921571D9C85E90089C858 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				342921561D9C85E90089C858 /* Basic-iPhone-Calculator.app */,
+				342921561D9C85E90089C858 /* TicTacToe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		342921581D9C85E90089C858 /* Basic-iPhone-Calculator */ = {
+		342921581D9C85E90089C858 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
 				342921591D9C85E90089C858 /* AppDelegate.swift */,
+				34C9B6D01DA2D8E10045E137 /* O_button.png */,
+				34C9B6D11DA2D8E10045E137 /* X_button.png */,
 				3429215B1D9C85E90089C858 /* ViewController.swift */,
 				3429215D1D9C85E90089C858 /* Main.storyboard */,
 				342921631D9C85E90089C858 /* Assets.xcassets */,
 				342921651D9C85E90089C858 /* LaunchScreen.storyboard */,
 				342921681D9C85E90089C858 /* Info.plist */,
-				342921601D9C85E90089C858 /* Basic_iPhone_Calculator.xcdatamodeld */,
+				342921601D9C85E90089C858 /* TicTacToe.xcdatamodeld */,
+				34792FBD1D9CCDE3008FF2F6 /* TicTacToeButton.swift */,
+				347F32461D9F497F00967B6A /* Board_background.png */,
 			);
+			name = TicTacToe;
 			path = "Basic-iPhone-Calculator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		342921551D9C85E90089C858 /* Basic-iPhone-Calculator */ = {
+		342921551D9C85E90089C858 /* TicTacToe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3429216B1D9C85E90089C858 /* Build configuration list for PBXNativeTarget "Basic-iPhone-Calculator" */;
+			buildConfigurationList = 3429216B1D9C85E90089C858 /* Build configuration list for PBXNativeTarget "TicTacToe" */;
 			buildPhases = (
 				342921521D9C85E90089C858 /* Sources */,
 				342921531D9C85E90089C858 /* Frameworks */,
@@ -82,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = "Basic-iPhone-Calculator";
+			name = TicTacToe;
 			productName = "Basic-iPhone-Calculator";
-			productReference = 342921561D9C85E90089C858 /* Basic-iPhone-Calculator.app */;
+			productReference = 342921561D9C85E90089C858 /* TicTacToe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 342921511D9C85E90089C858 /* Build configuration list for PBXProject "Basic-iPhone-Calculator" */;
+			buildConfigurationList = 342921511D9C85E90089C858 /* Build configuration list for PBXProject "TicTacToe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -117,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				342921551D9C85E90089C858 /* Basic-iPhone-Calculator */,
+				342921551D9C85E90089C858 /* TicTacToe */,
 			);
 		};
 /* End PBXProject section */
@@ -127,8 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C9B6D31DA2D8E10045E137 /* X_button.png in Resources */,
+				34C9B6D21DA2D8E10045E137 /* O_button.png in Resources */,
 				342921671D9C85E90089C858 /* LaunchScreen.storyboard in Resources */,
 				342921641D9C85E90089C858 /* Assets.xcassets in Resources */,
+				347F32471D9F497F00967B6A /* Board_background.png in Resources */,
 				3429215F1D9C85E90089C858 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34792FBE1D9CCDE3008FF2F6 /* TicTacToeButton.swift in Sources */,
 				3429215C1D9C85E90089C858 /* ViewController.swift in Sources */,
-				342921621D9C85E90089C858 /* Basic_iPhone_Calculator.xcdatamodeld in Sources */,
+				342921621D9C85E90089C858 /* TicTacToe.xcdatamodeld in Sources */,
 				3429215A1D9C85E90089C858 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		342921511D9C85E90089C858 /* Build configuration list for PBXProject "Basic-iPhone-Calculator" */ = {
+		342921511D9C85E90089C858 /* Build configuration list for PBXProject "TicTacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342921691D9C85E90089C858 /* Debug */,
@@ -297,24 +314,25 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3429216B1D9C85E90089C858 /* Build configuration list for PBXNativeTarget "Basic-iPhone-Calculator" */ = {
+		3429216B1D9C85E90089C858 /* Build configuration list for PBXNativeTarget "TicTacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3429216C1D9C85E90089C858 /* Debug */,
 				3429216D1D9C85E90089C858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		342921601D9C85E90089C858 /* Basic_iPhone_Calculator.xcdatamodeld */ = {
+		342921601D9C85E90089C858 /* TicTacToe.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				342921611D9C85E90089C858 /* Basic_iPhone_Calculator.xcdatamodel */,
+				342921611D9C85E90089C858 /* TicTacToe.xcdatamodel */,
 			);
-			currentVersion = 342921611D9C85E90089C858 /* Basic_iPhone_Calculator.xcdatamodel */;
-			path = Basic_iPhone_Calculator.xcdatamodeld;
+			currentVersion = 342921611D9C85E90089C858 /* TicTacToe.xcdatamodel */;
+			path = TicTacToe.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

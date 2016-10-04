@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Basic-iPhone-Calculator.xcodeproj">
+      location = "self:/Users/Edu/Desktop/Basic-iPhone-Calculator/TicTacToe.xcodeproj">
    </FileRef>
 </Workspace>
