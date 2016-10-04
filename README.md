@@ -1,2 +1,2 @@
-# Basic-iPhone-Calculator
-Basic  calculator in Swift 3
+# Simple Tic-Tac-Toe App
+Ready for hours of fun with the simplest Tic-Tac-Toe App ever ?!? 
