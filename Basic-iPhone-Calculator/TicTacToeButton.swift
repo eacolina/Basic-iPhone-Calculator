@@ -19,4 +19,5 @@ class TicTacToeButton: UIButton{
     var labels = (p1: "X", p2: "O")
     var owner: owner = .empty
     var position = 0
+    
 }

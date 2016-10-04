@@ -8,8 +8,6 @@
 
 import UIKit
 
-
-
 func checkIfWinner(solution:[Int], player:[Int]) -> Bool{ //takes an array of solutions and an array of owned buttons
     var count = 0
     for i in solution{

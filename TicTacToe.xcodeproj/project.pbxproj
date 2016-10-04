@@ -14,9 +14,6 @@
 		342921641D9C85E90089C858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342921631D9C85E90089C858 /* Assets.xcassets */; };
 		342921671D9C85E90089C858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342921651D9C85E90089C858 /* LaunchScreen.storyboard */; };
 		34792FBE1D9CCDE3008FF2F6 /* TicTacToeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34792FBD1D9CCDE3008FF2F6 /* TicTacToeButton.swift */; };
-		347F32471D9F497F00967B6A /* Board_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 347F32461D9F497F00967B6A /* Board_background.png */; };
-		34C9B6D21DA2D8E10045E137 /* O_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C9B6D01DA2D8E10045E137 /* O_button.png */; };
-		34C9B6D31DA2D8E10045E137 /* X_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C9B6D11DA2D8E10045E137 /* X_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +26,6 @@
 		342921661D9C85E90089C858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342921681D9C85E90089C858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34792FBD1D9CCDE3008FF2F6 /* TicTacToeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicTacToeButton.swift; sourceTree = "<group>"; };
-		347F32461D9F497F00967B6A /* Board_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board_background.png; sourceTree = "<group>"; };
-		34C9B6D01DA2D8E10045E137 /* O_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = O_button.png; path = ../O_button.png; sourceTree = "<group>"; };
-		34C9B6D11DA2D8E10045E137 /* X_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = X_button.png; path = ../X_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				342921591D9C85E90089C858 /* AppDelegate.swift */,
-				34C9B6D01DA2D8E10045E137 /* O_button.png */,
-				34C9B6D11DA2D8E10045E137 /* X_button.png */,
 				3429215B1D9C85E90089C858 /* ViewController.swift */,
 				3429215D1D9C85E90089C858 /* Main.storyboard */,
 				342921631D9C85E90089C858 /* Assets.xcassets */,
@@ -74,7 +66,6 @@
 				342921681D9C85E90089C858 /* Info.plist */,
 				342921601D9C85E90089C858 /* TicTacToe.xcdatamodeld */,
 				34792FBD1D9CCDE3008FF2F6 /* TicTacToeButton.swift */,
-				347F32461D9F497F00967B6A /* Board_background.png */,
 			);
 			name = TicTacToe;
 			path = "Basic-iPhone-Calculator";
@@ -140,11 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34C9B6D31DA2D8E10045E137 /* X_button.png in Resources */,
-				34C9B6D21DA2D8E10045E137 /* O_button.png in Resources */,
 				342921671D9C85E90089C858 /* LaunchScreen.storyboard in Resources */,
 				342921641D9C85E90089C858 /* Assets.xcassets in Resources */,
-				347F32471D9F497F00967B6A /* Board_background.png in Resources */,
 				3429215F1D9C85E90089C858 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
