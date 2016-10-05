@@ -106,6 +106,8 @@ class ViewController: UIViewController {
         }
         
         overlay.removeFromSuperview()
+        p1_owns.removeAll()
+        p2_owns.removeAll()
     }
 
 }
